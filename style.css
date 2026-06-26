@@ -42,9 +42,20 @@ main {
 
     position: relative;
     transition: transforms 0.8s;
+    transform-style: preserve-3d;
 
 
 }
+
+.cartao:hover .cartao-interno{
+
+
+    transform: rotateY(180deg);
+}
+
+
+
+
 
 .cartao-frente,.cartao-verso {
 
