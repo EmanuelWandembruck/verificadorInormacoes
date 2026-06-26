@@ -18,12 +18,12 @@ main {
 }
 
 .cabecalho {
-    color: rgba(0, 0, 0, 0.979);
+    color: rgba(255, 1, 1, 0.979);
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #696969;
+    background-color: #0011ff;
 
 }
 
