@@ -1,15 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 main {
@@ -17,75 +14,50 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 section {
     display: flex;
     gap: 16px;
-
 }
 
-
 .cabecalho {
-    color: #000000;
+    color: green;
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffd900;
-
+    background-color: #FFFF00;
 }
 
 .cartao {
     margin: 20px;
     width: 260px;
     height: 200px;
-
 }
 
 .cartao-imagem {
-
     width: 100%;
 }
 
- .cartao-interno {
-
+.cartao-interno {
     position: relative;
-    transition: transforms 0.8s;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
-
-
 }
 
 .cartao:hover .cartao-interno {
-
-
     transform: rotateY(180deg);
 }
 
-
-
-{
 .cartao-frente,
-position: absolute;
-
-}
-
-
-
-
-
 .cartao-verso {
-
     position: absolute;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     backface-visibility: hidden;
-
 }
 
 .cartao-verso {
-
     transform: rotateY(180deg);
 }
