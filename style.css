@@ -17,12 +17,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-section{
-display: flex;
-gap: 16px;
+section {
+    display: flex;
+    gap: 16px;
 
 }
 
@@ -38,9 +38,10 @@ gap: 16px;
 }
 
 .cartao {
-
+    margin: 20px;
     width: 260px;
     height: 200px;
+
 }
 
 .cartao-imagem {
@@ -48,7 +49,7 @@ gap: 16px;
     width: 100%;
 }
 
-.cartao:hover .cartao-interno {
+ .cartao-interno {
 
     position: relative;
     transition: transforms 0.8s;
@@ -57,7 +58,7 @@ gap: 16px;
 
 }
 
-.cartao:hover .cartao-interno{
+.cartao:hover .cartao-interno {
 
 
     transform: rotateY(180deg);
@@ -67,7 +68,12 @@ gap: 16px;
 
 
 
-.cartao-frente,.cartao-verso {
+.cartao-frente,
+position: absolute;
+
+
+
+.cartao-verso {
 
     position: absolute;
     border-radius: 12px;
